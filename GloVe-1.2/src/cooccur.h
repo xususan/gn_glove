@@ -28,6 +28,11 @@ typedef struct hashrec {
     struct hashrec *next;
 } HASHREC;
 
+typedef struct hashrec2 {
+   char        *word;
+   long long id;
+} HASHREC2;
+
 #endif //GLOVE_1_2_COOCCUR_H
 
 

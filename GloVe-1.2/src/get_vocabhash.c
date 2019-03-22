@@ -21,7 +21,7 @@
 #include <stdlib.h>
 #define MAX_STRING_LENGTH 1000
 
-#include "temp.h"
+// #include "temp.h"
 #include "const.h"
 #include "cooccur.h"
 

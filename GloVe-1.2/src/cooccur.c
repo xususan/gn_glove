@@ -32,11 +32,6 @@
 //#include "temp.h"
 
 
-//typedef struct hashrec2 {
-//    char        *word;
-//    long long id;
-//} HASHREC2;
-
 
 
 int verbose = 2; // 0, 1, or 2

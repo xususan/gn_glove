@@ -4,18 +4,18 @@
 # One optional argument can specify the language used for eval script: matlab, octave or [default] python
 
 make
-if [ ! -e text8 ]; then
-  if hash wget 2>/dev/null; then
-    wget http://mattmahoney.net/dc/text8.zip
-  else
-    curl -O http://mattmahoney.net/dc/text8.zip
-  fi
-  unzip text8.zip
-  rm text8.zip
-fi
+# if [ ! -e text8 ]; then
+#   if hash wget 2>/dev/null; then
+#     wget http://mattmahoney.net/dc/text8.zip
+#   else
+#     curl -O http://mattmahoney.net/dc/text8.zip
+#   fi
+#   unzip text8.zip
+#   rm text8.zip
+# fi
 DIMENSION=$1
 PARA=$2
-CORPUS=/bigtemp/cj7an/en_wiki_corpus
+CORPUS=train_200k_glove.csv
 #CORPUS=$2
 VOCAB_FILE=vocab"$1".txt
 COOCCURRENCE_FILE=cooccurrence"$1".bin
